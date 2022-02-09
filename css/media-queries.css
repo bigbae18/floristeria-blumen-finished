@@ -1,17 +1,80 @@
-/* Móvil */
-
-@media screen and (min-width: 767px) {
-
-}
-
 /* Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #servicios {
+        display: grid;
+        grid-template: 1fr / repeat(3, 30%);
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 2vw;
+    }
 
+    #dedicaselo, #entregas, #personaliza {
+        height: 90%;
+        padding: 0 2vw;
+    }
+    #nosotros {
+        padding: 0 10vw;
+        
+        height: 60vh;
+    }
+    
+    #nosotros p {
+        font-size: 1.25rem;
+    }
+    #nosotros h3 {
+        font-size: 2rem;
+    }
 }
 
 /* Ordenador */
 
 @media screen and (min-width: 1024px) {
+    #servicios {
+        display: grid;
+        grid-template: 1fr / repeat(3, 30%);
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 2vw;
+    }
+    #dedicaselo, #entregas, #personaliza {
+        height: 90%;
+        padding: 0 2vw;
+    }
+    #nosotros {
+        
+        height: 50vh;
+        padding: 10vw 20vw;
+    }
+    #nosotros p {
+        font-size: 1.25rem;
+    }
+    #nosotros h3 {
+        font-size: 2rem;
+    }
+}
+
+/* Móvil */
+
+@media screen and (max-width: 767px) {
+    #servicios {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        margin: 8vw 4vw 4vw 4vw;
+    }
+
+    #dedicaselo, #entregas, #personaliza {
+        height: 80%;
+    }
+    #nosotros {
+        padding: 0 10vw;
+        height: 50vh;
+    }
+    #nosotros h3 {
+        font-size: 1.5rem;
+    }
+    #nosotros p {
+        font-size: 1rem;
+    }
 
 }

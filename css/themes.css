@@ -1,7 +1,19 @@
 [data-localTheme = 'dark'] {
     --background-color: #2D333B;
+    --white-color: #F2F8F8;
+    --primary-color: #3C8080;
+    --secondary-color: #9b7577;
+    
+    --text-color: #f2f8f8;
+    --rrss-background: #5c5c5c;
 }
 
 [data-localTheme = 'light'] {
     --background-color: #F2F8F8;
+    --white-color: #F2F8F8;
+    --primary-color: #3C8080;
+    --secondary-color: #433334;
+
+    --text-color: #000;
+    --rrss-background: #EBEAEA;
 }
